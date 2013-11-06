@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hello - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/hello.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\yang\Documents\GitHub\test\hello\hello.rc"" 
+Creating temporary file "C:\Users\yang\AppData\Local\Temp\RSP95A5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/hello.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\yang\Documents\GitHub\test\hello\hello.cpp"
+"C:\Users\yang\Documents\GitHub\test\hello\MainFrm.cpp"
+"C:\Users\yang\Documents\GitHub\test\hello\ChildFrm.cpp"
+"C:\Users\yang\Documents\GitHub\test\hello\helloDoc.cpp"
+"C:\Users\yang\Documents\GitHub\test\hello\helloView.cpp"
+]
+Creating command line "cl.exe @C:\Users\yang\AppData\Local\Temp\RSP95A5.tmp" 
+Creating temporary file "C:\Users\yang\AppData\Local\Temp\RSP95A6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/hello.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\yang\Documents\GitHub\test\hello\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\yang\AppData\Local\Temp\RSP95A6.tmp" 
+Creating temporary file "C:\Users\yang\AppData\Local\Temp\RSP95C6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/hello.pdb" /debug /machine:I386 /out:"Debug/hello.exe" /pdbtype:sept 
+.\Debug\hello.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\ChildFrm.obj
+.\Debug\helloDoc.obj
+.\Debug\helloView.obj
+.\Debug\hello.res
+]
+Creating command line "link.exe @C:\Users\yang\AppData\Local\Temp\RSP95C6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+hello.cpp
+MainFrm.cpp
+ChildFrm.cpp
+helloDoc.cpp
+helloView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+hello.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
